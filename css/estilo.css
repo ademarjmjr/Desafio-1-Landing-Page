@@ -1,0 +1,322 @@
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configuração do corpo */
+body, html {
+    font-family: "inter";
+    background-color: #f4f4f4;
+    color: #333;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho */
+header {
+    height: 430px;
+    text-align: left;
+    padding: 20px;
+    background-color: #303030;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#h1-cabecalho {
+    font-size: 60px;
+    margin-top: 168px;
+    margin-bottom: 30px;
+    margin-left: 62px;
+    font-family: inter;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -4.9px;
+    color: #FFFFFF;
+}
+
+#p-cabecalho {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #FFFFFF; 
+    margin-left: 62px;   
+}
+
+/* Estilo do main */
+main {
+    padding: 0px;
+}
+
+/* Estilo das informações */
+.info {
+    width: 100%;
+    height: auto;
+    background-color: #F9F9F9;
+    display: flex;
+    /*flex-wrap: wrap;
+    justify-content: space-around;*/
+    padding-left: 75px;
+    padding-right: 100px;
+    margin-bottom: 45px;
+}
+
+.info div {
+    
+    padding-top: 76px;
+    margin-left: 98px;
+    /*padding-left: 170px;
+    padding-right: 100px;*/
+    /*margin: 10px;*/
+    /*margin-left: 30px;*/
+   /* flex: 1 1 10px;*/
+    text-align: left;
+}
+
+.info h2 {
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 600;
+    /*line-height: 28px;
+    font-size: 1.8rem;*/
+    color: #000;
+    line-height: 28px;
+    
+}
+
+.info span {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    
+}
+
+/* Estilo do conteúdo */
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 60px;
+}
+
+.texto {
+    flex: 1 1 400px;
+    margin: 75px;
+}
+
+.foto {
+    width: 410px;
+    height: 605px;
+    /*flex: 1 1 20px;
+    margin: 10px;*/
+}
+
+
+.texto h3 {
+    /*font-size: 1.8rem;
+    margin-bottom: 10px;*/
+    font-family: Inter;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: left;
+    letter-spacing: -2px;
+    padding-bottom: 60px;
+    padding-top: -400px;
+}
+
+#conteudo-paragrafo {
+    /*font-size: 1rem;
+    line-height: 1.6;*/
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: left;    
+    color: #000;
+    ;
+}
+
+.foto img {
+    max-width: 100%;
+    height: auto;
+    border: 0px;
+    
+    border-radius: 8px;
+}
+
+/* Formulário */
+.formulario {
+    width: 100%;
+    height: 638px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #303030;
+}
+
+h4 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 72px;
+    padding-top: 90px;
+}
+
+form {
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+
+input {
+    width: 508px;
+    height: 72px;
+    gap: 0px;
+    border-radius: 10px;
+    border: 0px;
+    margin-bottom: 68px;
+    padding-left: 20px;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+button {
+    width: 286px;
+    height: 74px;
+    gap: 0px;
+    border-radius: 10px;
+    border: 0;
+    opacity: 0px;
+    background-color: #C07212;
+    cursor: pointer;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 1040px) {
+    
+    .conteudo {
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    
+    .texto, .foto {
+        flex: 1 1 100%;
+        padding-bottom: 40px;
+        
+    }
+}
+
+@media (max-width: 920px) {
+    .info {
+        width: 100%; 
+        padding: 0px;
+        margin: 0px;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .info div {
+        flex-direction: column;
+        padding-bottom: 2px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin: 0px;
+        text-align: center;
+    }
+    
+    .conteudo {
+        padding-top: 50px;
+        flex-direction: column;
+    }
+    
+    .texto, .foto {
+        width: 90%;
+        margin: 0px;
+        padding: 0px;
+        padding-bottom: 30px;
+    }
+    
+    #h1-cabecalho {
+        font: inter;
+        font-size: 35px;
+        line-height: 35px;
+        letter-spacing: 1px;
+    }
+    
+    #p-cabecalho {
+        font-size: 20px;
+    }
+
+    input {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding-top: 30px;
+    }
+
+    .info div {
+        width: 90%;
+        flex: 1 1 100%;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    h2 {
+        padding-bottom: 20px;
+    }
+
+    .texto h3 {
+        font-size: 1.5rem;
+    }
+
+    #conteudo-paragrafo {
+        font-size: 0.9rem;
+        width: 280px;
+    }
+
+    .conteudo {
+        width: 100%;
+        margin: 0px;
+        flex-direction: column;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+
+    .foto {
+        width: 90%;
+    }
+
+    input {
+        width: 90%;
+    }
+}
+
