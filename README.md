@@ -1,6 +1,9 @@
 # Desafio-1-Landing-Page
 Pagina para captação de clientes de arquitetura.
 
+Link do site disponibilizado: https://arquitetos-novos.netlify.app
+Link da planilha de registro de informação: https://docs.google.com/spreadsheets/d/1Py1qb2ABjIeFwhfb6uu4_8HSsyvN44Gs6n2N4DVmqKc/edit?gid=0#gid=0
+
 README
 Descrição do Projeto
 
