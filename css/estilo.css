@@ -263,6 +263,11 @@ button {
         padding-top: 30px;
     }
 
+    h1 {
+        width: 80%;
+        margin: 0px;
+    }
+
     .info div {
         width: 90%;
         flex: 1 1 100%;
