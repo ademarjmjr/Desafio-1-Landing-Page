@@ -58,22 +58,14 @@ main {
     height: auto;
     background-color: #F9F9F9;
     display: flex;
-    /*flex-wrap: wrap;
-    justify-content: space-around;*/
     padding-left: 75px;
     padding-right: 100px;
     margin-bottom: 45px;
 }
 
 .info div {
-    
     padding-top: 76px;
     margin-left: 98px;
-    /*padding-left: 170px;
-    padding-right: 100px;*/
-    /*margin: 10px;*/
-    /*margin-left: 30px;*/
-   /* flex: 1 1 10px;*/
     text-align: left;
 }
 
@@ -81,8 +73,6 @@ main {
     font-family: Inter;
     font-size: 35px;
     font-weight: 600;
-    /*line-height: 28px;
-    font-size: 1.8rem;*/
     color: #000;
     line-height: 28px;
     
@@ -114,14 +104,10 @@ main {
 .foto {
     width: 410px;
     height: 605px;
-    /*flex: 1 1 20px;
-    margin: 10px;*/
 }
 
 
 .texto h3 {
-    /*font-size: 1.8rem;
-    margin-bottom: 10px;*/
     font-family: Inter;
     font-family: Inter;
     font-size: 40px;
@@ -134,22 +120,18 @@ main {
 }
 
 #conteudo-paragrafo {
-    /*font-size: 1rem;
-    line-height: 1.6;*/
     font-family: Inter;
     font-size: 24px;
     font-weight: 300;
     line-height: 26px;
     text-align: left;    
     color: #000;
-    ;
 }
 
 .foto img {
     max-width: 100%;
     height: auto;
     border: 0px;
-    
     border-radius: 8px;
 }
 
